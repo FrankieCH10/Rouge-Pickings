@@ -4,19 +4,19 @@ html{
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1em;
+  	justify-content: center;
+  	align-items: center;
+  	font-size: 1em;
 }
 
 .container {
-  max-width: 1200px;
-  width:90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap; 
-  margin: 0 auto;
+  	max-width: 1200px;
+  	width:90%;
+  	display: flex;
+ 	 justify-content: center;
+  	align-items: center;
+  	flex-flow: row wrap; 
+  	margin: 0 auto;
 }
 }
 
@@ -44,16 +44,16 @@ h4 {
 p {
 	font-size: 1em;
 	line-height: 1.25em;
-  padding: 0 2em;
+  	padding: 0 2em;
 }
 
 /*The widths are in a percentage!*/
 header {
 	margin: 0 auto;
 	display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+  	justify-content: center;
+  	align-items: center;
+  	flex-flow: row wrap;
 }
 
 header h1 {
@@ -90,9 +90,9 @@ header nav ul li a{
 .bottom-section {
 	margin: 0 auto;
 	display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+  	justify-content: center;
+  	align-items: center;
+  	flex-flow: row wrap;
 }
 
 .main-image {
@@ -162,9 +162,9 @@ footer {
 	margin: 0 auto;
 	text-align: center;
 	display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+  	justify-content: center;
+  	align-items: center;
+  	flex-flow: row wrap;
 }
 footer span {
 	font-family: 'Galada', cursive;

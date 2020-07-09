@@ -11,11 +11,12 @@ body {
 
 .container {
   max-width: 1200px;
-  width: 90%;
+  width:90%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap; 
+  margin: 0 auto;
 }
 }
 
@@ -28,43 +29,45 @@ h4 {
 	font-weight: 700;
 }
 h1 {
-	font-size: 30px;
+	font-size: 1.873em;
 }
 h2 {
-    font-size: 24px;
+    font-size: 1.5em;
 }
 h3 {
-	font-size: 18px;
+	font-size: 1.125em;
 }
 h4 {
-	font-size: 12px;
+	font-size: 1em;
 }
 
 p {
-	font-size: 14px;
-	line-height: 21px;
-    padding: 0 30px;
+	font-size: 1em;
+	line-height: 1.25em;
+  padding: 0 2em;
 }
 
 /*The widths are in a percentage!*/
 header {
-	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 header h1 {
 	margin: 0;
-	padding: 38px 0;
+	padding: 0.5em 0;
+  border-bottom: 3px solid #77a466;
+
 }
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 2em 0;
 }
 header nav ul {
 	margin: 0;
@@ -73,8 +76,8 @@ header nav ul {
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 14px;
-	padding: 0 10px;
+	font-size: 1em;
+	padding: 0 0.5em;
 	display: inline;
 }
 header nav ul li a{
@@ -89,6 +92,7 @@ header nav ul li a{
 	display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .main-image {
@@ -109,7 +113,7 @@ header nav ul li a{
 }
 .main-title p {
 	padding: 0;
-	font-size: 16px;
+	font-size: 1em;
 }
 
 .section-one,
@@ -121,7 +125,7 @@ header nav ul li a{
 }
 
 .section-one h4 {
-	padding: 10px 0;
+	padding: 0.75em 0;
 }
 
 .section-two {
@@ -131,7 +135,7 @@ header nav ul li a{
 
 .section-two h4,
 .section-three h4 {
-	padding: 10px 30px;
+	padding: 0.75em 1.875em;
 }
 
 .menu {
@@ -145,11 +149,11 @@ header nav ul li a{
 
 .reviews {
 	color: #333;
-	font-size: 16px;
+	font-size: 1em;
 }
 
 .address {
-	font-size: 16px;
+	font-size: 1em;
 }
 
 /*The widths are in a percentage!*/
@@ -160,6 +164,7 @@ footer {
 	display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 footer span {
 	font-family: 'Galada', cursive;
